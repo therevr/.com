@@ -1,0 +1,130 @@
+@import 'nib'
+
+body
+  background-color: white
+
+header
+  position: fixed
+  top: 0
+  width: 100%
+  z-index: 10
+  border-bottom: 1px solid rgba(0,0,0,.1)
+  padding: 15px 15px 11px 15px
+  background-color: rgba(0,0,0,0)
+
+  .logo
+    width: 150px
+    float: left
+    display: none
+    img
+      width: 100%
+
+  #links
+    float: right
+    padding: 4px 0px 8px 0px
+    li
+      font-size: 14px
+      float: left
+      margin-right: 20px
+
+section
+  width: 100%
+  position: relative
+  height: 100%
+
+section#video
+  height: 500px
+  overflow: hidden
+  position: relative
+
+section#info
+  
+
+.background-video
+  width: 100%
+  background-color: black
+  transform: translateY(-25%)
+
+  video
+    width: 100%
+    opacity: .4
+
+.video-overlay
+  width: 100%
+  height: 100%
+  padding-top: 190px
+  position: absolute
+  top: 0
+  left: 0
+  font-size: 90px
+  font-family: 'Arvo'
+  text-align: left
+
+#intro
+  background-color: #ed3146
+  display: table
+  box-shadow: inset 0px -10px 40px rgba(0,0,0,0.2)
+  // background-image: url('/images/mountains.jpg')
+  // background-size: cover
+
+  .bg-image
+    background-image: url('/images/dessert.jpg')
+    width: 100%
+    height: 100%
+    background-size: cover
+    opacity: .1
+    top: 0
+    position: absolute
+    left: 0
+
+  .text
+    display: table-cell
+    vertical-align: middle
+    font-size: 100px
+    padding: 150px
+    font-weight: 100
+    text-align: left
+    font-family: 'Arvo'
+    color: white
+    .line
+      
+      &.sub
+        color: black
+        font-size: 50px
+        margin-top: 20px
+
+
+section#short
+  background-color: white
+  padding: 62px 120px
+  font-size: 30px
+  border-bottom: 1px solid #eee
+  font-weight: 200
+  letter-spacing: 1px
+  p
+    color: #666
+
+section#stars
+  height: 800px
+
+  .stars
+    height: 100%
+    width: 40%
+    float: left
+    overflow: hidden
+
+  .content
+    height: 100%
+    width: 60%
+    float: left
+
+.big-logo
+  width: 300px
+
+@media (max-width: 1900px)
+  #intro .text
+    font-size: 50px
+
+@media (max-width: 1600px)
+  #intro .text
+    font-size: 60px
