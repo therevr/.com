@@ -3,5 +3,15 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 135.4 23.5" enable-background="new 0 0 135.4 23.5" xml:space="preserve">
-<text transform="matrix(1 0 0 1 9.155273e-05 21.8676)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'ProximaNovaT-Thin'" font-size="30.2561" letter-spacing="1">THERE</tspan><tspan x="96.8" y="0" fill="#3A3A3A" font-family="'ProximaNovaT-Thin'" font-size="30.2561" letter-spacing="1">VR</tspan></text>
+<g>
+	<path fill="#FFFFFF" d="M8,21.9V2.6H1.1V1.7h14.6v0.9H8.9v19.3H8z"/>
+	<path fill="#FFFFFF" d="M35.8,21.9v-9.9H22.1v9.9h-1V1.7h1V11h13.8V1.7h1v20.2H35.8z"/>
+	<path fill="#FFFFFF" d="M43.6,21.9V1.7H56v0.9H44.6V11h11.2v0.9H44.6v9H56v0.9H43.6z"/>
+	<path fill="#FFFFFF" d="M74,21.9l-6.1-8.7H63v8.7h-1V1.7h7c3.3,0,6,2,6,5.7s-2.7,5.7-6,5.7l6.2,8.7H74z M73.9,7.4
+		c0-2.8-1.9-4.8-4.9-4.8h-6v9.7h6C71.9,12.2,73.9,10.2,73.9,7.4z"/>
+	<path fill="#FFFFFF" d="M81.1,21.9V1.7h12.3v0.9H82V11h11.2v0.9H82v9h11.4v0.9H81.1z"/>
+	<path fill="#3A3A3A" d="M105.8,21.9L97.4,1.7h1.1l7.9,19.1l7.9-19.1h1.1L107,21.9H105.8z"/>
+	<path fill="#3A3A3A" d="M132.2,21.9l-6.1-8.7h-4.8v8.7h-1V1.7h7c3.3,0,6,2,6,5.7s-2.7,5.7-6,5.7l6.2,8.7H132.2z M132.1,7.4
+		c0-2.8-1.9-4.8-4.9-4.8h-6v9.7h6C130.1,12.2,132.1,10.2,132.1,7.4z"/>
+</g>
 </svg>

@@ -11,8 +11,8 @@ setContentHeight = ->
 #     else
 #       $('header').removeClass()
 
-# init = ->
-#   setSmallHeader()
+init = ->
+  setContentHeight()
 
 window.addEventListener 'resize', setContentHeight
-# document.addEventListener 'DOMContentLoaded', init
+document.addEventListener 'DOMContentLoaded', init
